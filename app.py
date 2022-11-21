@@ -1,17 +1,18 @@
 import streamlit as st
-st.title('Multiplication app')
 st.write("""
-# Multiplication Calculator
-This app returns the answer for Multiplication of two given numbers
+# Multiplication calculation App
+
+This app calculates the product of any two numbers
 """)
-#Get Input
+
+
 
 def user_input_features():
-    n1 = st.number_input('Enter Number 1')
-    n2 =st.number_input('Enter Number 2')
+    n1 = st.number_input("Enter Number 1")
+    n2 = st.number_input("Enter Number 2")
     return (n1*n2)
 
-g = user_input_features()
+df = user_input_features()
 
-st.subheader('Answer')
-st.write(g)
+st.subheader('Anwer')
+st.write(df)
