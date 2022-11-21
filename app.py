@@ -1,6 +1,6 @@
 import streamlit as st
 st.write("""
-# Multiplication calculation App
+# Multiplication calculation App -Roll no.21f3001664
 
 This app calculates the product of any two numbers
 """)
@@ -14,5 +14,5 @@ def user_input_features():
 
 df = user_input_features()
 
-st.subheader('Anwer')
-st.write(df)
+st.subheader('Answer')
+st.subheader(df)
