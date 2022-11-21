@@ -1,11 +1,11 @@
 import streamlit as st
 st.write("""
-# Multiplication calculation App -Roll no.21f3001664
+# Multiplication calculation App 
 
 This app calculates the product of any two numbers
 """)
 
-
+st.header('By Roll no.21f3001664')
 
 def user_input_features():
     n1 = st.number_input("Enter Number 1")
@@ -14,5 +14,5 @@ def user_input_features():
 
 df = user_input_features()
 
-st.subheader('Answer')
+st.subheader('Answer:')
 st.subheader(df)
