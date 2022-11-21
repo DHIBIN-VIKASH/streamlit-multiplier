@@ -1,12 +1,10 @@
 import streamlit as st
 st.title('Multiplication app')
 st.write("""
-# Multiplication App
+# Multiplication Calculator
 This app returns the answer for Multiplication of two given numbers
 """)
 #Get Input
-
-st.header('Multiplication Calculator')
 
 def user_input_features():
     n1 = st.number_input('Enter Number 1')
